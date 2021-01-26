@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@300&display=swap');
+
+$tableHeader: #7a7c7e;
+$primaryBtn: rgb(67, 141, 252);
+
+.usersTable {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 5rem;
+}
+
+h2 {
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	font-family: 'Cabin';
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: $tableHeader;
+	color: #fff;
+}
+
+th,
+td {
+	text-align: left;
+	padding: 8px;
+	border-right: 1px solid rgba(242, 242, 242, 0.3);
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: $primaryBtn;
+	text-align: center;
+	cursor: pointer;
+	width: auto;
+	font-size: 1rem;
+	align-items: center;
+}
+
+button:hover {
+	opacity: 0.7;
+}
+
+@media (max-width: 520px) {
+	.btn {
+		width: 100%;
+		font-size: 0.2rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.btn {
+		width: 100%;
+		font-size: 0.4rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.btn {
+		width: 100%;
+		font-size: 0.8rem;
+	}
+}

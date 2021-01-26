@@ -14,7 +14,6 @@ const getDataSuccess = (data) => {
 }
 
 
-
 export const getHomeData = () => {
   return (dispatch) => {
     dispatch(getData());
