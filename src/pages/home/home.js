@@ -23,8 +23,9 @@ class Home extends Component {
 }
 
 const mapStateToProps = (state) => {
-	const { data } = state;
-	return { usersList: data };
+	const { homeReducer } = state;
+	const { homeData } = homeReducer;
+	return { usersList: homeData };
 };
 
 const mapDispatchToProps = (dispatch) => {

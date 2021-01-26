@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+.postList {
+	display: flex;
+}
+
+p {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	border: 1px solid #ddd;
+	padding: 2rem;
+	border-collapse: collapse;
+}
