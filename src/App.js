@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import Routes from './Routes'
-
+import Routes from './Routes';
 
 export default class App extends Component {
-  render() {
-    return (      
-      <Routes />
-    )
-  }
+	render() {
+		return (
+			<div>
+				<Routes />
+			</div>
+		);
+	}
 }

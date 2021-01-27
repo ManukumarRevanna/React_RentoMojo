@@ -11,6 +11,7 @@ export default function usersList(props) {
 	return (
 		<div className="usersTable">
 			<h2>Users List</h2>
+
 			<table>
 				<thead>
 					<tr>

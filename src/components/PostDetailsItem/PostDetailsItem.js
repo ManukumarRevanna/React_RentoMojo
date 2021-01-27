@@ -1,5 +1,8 @@
 import React from 'react';
 
+//css
+import './PostDetailsItem.scss';
+
 // import { Link } from 'react-router-dom';
 import PostComments from '../postComments/PostComments';
 
@@ -8,13 +11,17 @@ export default function PostDetailsItem(props) {
 
 	return (
 		<div>
-			<div>
-				<p>title: {title}</p>
-				<p>body: {body}</p>
-				<p>Comments</p>
+			<div className="postDetailsCard">
+				<p>
+					<span>title: </span> {title}
+				</p>
+				<p>
+					<span>description: </span> {body}
+				</p>
+				<button className="commentsBtn">Comments</button>
 			</div>
 
-			<div>
+			<div className="commentsSection">
 				<PostComments />
 			</div>
 		</div>

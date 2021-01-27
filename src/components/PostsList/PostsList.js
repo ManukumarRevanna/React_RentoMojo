@@ -2,6 +2,9 @@ import React from 'react';
 
 import PostsItem from '../PostsItem/PostsItem';
 
+//CSS
+import './PostsList.scss';
+
 export default function PostsList(props) {
 	const { data } = props;
 
